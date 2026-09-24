@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "A Comprehensive Approach to MRI Brain Image Segmentation and Classification Using Deep Learning Approaches"
+message: "If you use this repository, please cite the project report below."
+type: software
+authors:
+  - family-names: "S"
+    given-names: "Varun"
+  - family-names: "S"
+    given-names: "Tharun"
+  - family-names: "M"
+    given-names: "Sathish Kumar"
+  - family-names: "B"
+    given-names: "Kiruba"
+    affiliation: "Sri Krishna College of Engineering and Technology"
+license: MIT
+year: 2024
+repository-code: "https://github.com/VarunSivamani/brain-mri-seg-classification"
+abstract: "MRI brain tumor classification (EfficientNet-B3, EfficientNetV2, ViT, CNN) and segmentation (ResUNet, Attention UNet, UNet) with transfer learning. EfficientNet-B3 reaches 99.93% accuracy; ResUNet reaches 0.2007 focal Tversky loss."
+preferred-citation:
+  type: report
+  title: "A Comprehensive Approach to MRI Brain Image Segmentation and Classification Using Deep Learning Approaches"
+  authors:
+    - family-names: "S"
+      given-names: "Varun"
+    - family-names: "S"
+      given-names: "Tharun"
+    - family-names: "M"
+      given-names: "Sathish Kumar"
+  institution:
+    name: "Sri Krishna College of Engineering and Technology (Anna University)"
+  year: 2024

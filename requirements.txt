@@ -1,0 +1,32 @@
+# --- Core scientific stack (Python 3.10, tested on Kaggle) ---
+numpy>=1.24,<1.26
+pandas>=1.5
+matplotlib>=3.7
+seaborn>=0.12
+scikit-learn>=1.2
+opencv-python>=4.7
+Pillow>=9.4
+tqdm>=4.65
+
+# --- Deep learning: TensorFlow/Keras branch (EfficientNet-B3, CNN, UNet family) ---
+tensorflow>=2.12,<2.16
+keras>=2.12
+scikit-image>=0.20
+
+# --- Deep learning: PyTorch branch (EfficientNetV2-L, ViT-L-32) ---
+torch>=2.0
+torchvision>=0.15
+torchinfo>=1.8
+
+# --- Notebook UX / reporting ---
+jupyter>=1.0
+ipykernel>=6.22
+scikit-plot>=0.3.7
+plotly>=5.13
+
+# NOTE:
+# 1. Install with: pip install -r requirements.txt
+# 2. Kaggle notebooks already ship most of these; Colab users may need:
+#    pip install torchinfo scikit-plot
+# 3. GPU recommended for retraining. All reported results were obtained with
+#    GPU runtimes (Kaggle). CPU inference works for the saved notebooks.
